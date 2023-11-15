@@ -1,0 +1,320 @@
+@media (max-width: 1440px){
+    .container{
+        max-width: 1345px;
+    }
+    h1{
+        font-size: 70px;
+        margin-top: 60px;
+    }
+    .width-slider{
+        max-width: 1070px;
+    }
+    .swiper-wrapper {
+        margin: 0 0;
+    }
+
+    section{
+        background-size: 300px;
+    }
+
+    footer h2{
+        font-size: 34px;
+    }
+    .footer-social ul li{
+        padding: 10px 100px;
+    }
+}
+@media (max-width: 1300px){
+    .quiz{
+        max-width: 1150px;
+    }
+    .quiz-questions{
+        max-width: 850px;
+    }
+    .quiz-questions h2{
+        font-size: 52px;
+    }
+    .quiz-questions h4{
+        font-size: 16px;
+    }
+    .quiz::before{left: 343px; width:780px }
+    .quiz::after{left:330px; width:800px }
+}
+
+@media (max-width: 1100px){
+    .head{
+        padding: 10px 8px;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    nav .header-adapt{
+        column-gap: 5px;
+        font-size: 14px;
+    }
+    .show{
+        right: 220px;
+    }
+    .contacts{
+        column-gap: 14px;
+    }
+    .contacts ul{
+        column-gap: 6px
+    }
+    .contacts button{
+        font-size: 14px;
+        padding: 12px 16px 10px;
+    }
+    .dropbtn{
+        padding: 10px 8px;
+    }
+
+    section{
+        background: url("../img/section-back-adapt.png")no-repeat left bottom,
+                    url("../img/section-back-adapt2.png")no-repeat right bottom;
+
+    }
+    section h3{
+        font-size: 15px;
+        max-width: 500px;
+    }
+    .smiles ul li{
+        min-width: 220px;
+    }
+
+    .quiz {
+        max-width: 770px;
+    }
+
+    .quiz-questions{
+        max-width: 450px;
+    }
+    .quiz-questions h2{
+        font-size: 40px;
+    }
+    .quiz-questions h4{
+        font-size: 16px;
+        max-width: 400px;
+    }
+    .quiz::before{left: 343px;width: 400px;}
+    .quiz::after{left: 334px;width: 420px;}
+
+    .quiz__questions__checkboxes{
+        max-width: 455px;
+    }
+
+    .quiz__questions__checkboxes label{
+        padding: 8px 24px;
+    }
+    .check::before{
+        width: 18px;
+        height: 18px;
+        top: 9px;
+        left: 4px;
+        font-size: 14px;
+    }
+    .quiz button{
+        margin-top: 24px;
+    }
+
+
+    .width-slider {
+        max-width: 600px;
+    }
+
+    footer h4{
+        font-size: 14px;
+    }
+    footer h2{
+        font-size: 24px;
+    }
+    .footer-social ul li{
+        padding: 5px 65px;
+    }
+    .logo-footer{
+        font-size: 26px;
+        margin-right: 18px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header-not-adapt{
+        display: none;
+    }
+    .nav-adapt{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+
+    .burger button{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+
+
+    h1{
+        font-size: 40px;
+        padding: 0 16px;
+    }
+    section h3{
+        padding: 0 16px;
+        text-align: left;
+    }
+
+
+    .quiz {
+        max-width: 420px;
+        flex-wrap: wrap;
+    }
+    .quiz aside{
+        margin-left: 0;
+        margin-bottom: 8px;
+        max-width: 420px;
+    }
+    .quiz-questions{
+        max-width: 440px;
+        padding: 10px 20px 32px 20px;
+        margin-left: 0;
+    }
+    .quiz::before{display: none}
+    .quiz::after{display: none}
+
+
+
+    .width-slider {
+        max-width: 500px;
+    }
+
+
+
+
+    .logo-footer{
+        display: none;
+    }
+    .logo-footer-adapt{
+        display: block;
+        padding-top: 48px;
+        padding-left: 17px;
+        font-size: 36px;
+    }
+    .footer-contacts{
+        margin-left: 17px;
+        row-gap: 32px;
+    }
+    .footer-social{
+        margin-left: 17px;
+    }
+    .footer-social ul li{
+        padding: 0 27px;
+    }
+    .footer-social ul li:nth-child(1){
+        background-color: #000000;
+    }
+
+    .popup{
+        max-width: 320px;
+        padding: 28px 16px 0;
+        margin-left: -160px;
+    }
+    .popup span{
+        left: 255px;
+        top: 15px;
+        background-size: 48px;
+    }
+
+    .popup h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .popup h4{
+        font-size: 24px;
+    }
+    .popup input{
+        max-width: 265px;
+        font-size: 24px;
+    }
+    .radio-button{
+        font-size: 16px;
+        justify-content: space-between;
+    }
+    .radio-button label{
+        padding: 6px 24px;
+    }
+    .next{
+        max-width: 288px;
+        padding: 12px 85px;
+    }
+
+
+
+
+}
+@media (max-width: 500px){
+
+    .quiz {
+        max-width: 320px;
+    }
+    .quiz aside{
+        max-width: 320px;
+    }
+    .quiz-questions{
+        max-width: 340px;
+        padding: 10px 16px 32px 16px;
+    }
+
+
+
+    .width-slider {
+        max-width: 288px;
+    }
+    .swiper-slide {
+        width: 288px;
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    .swiper-wrapper {
+        margin: 0 -50px;
+    }
+
+}
+
+@media (max-width: 400px){
+    h1{
+        text-align: left;
+        margin-top: 50px;
+    }
+    .go-kviz{
+        text-align: left;
+        padding-left: 16px;
+        padding-bottom: 27px;
+    }
+    .go-kviz button{
+        margin: 24px auto 97px;
+        border-radius: 8px;
+        padding: 8px 32px;
+
+    }
+    section h3{
+        margin: 24px auto 0;
+    }
+    .smiles ul li{
+        padding: 4px 6px;
+        font-size: 14px;
+        min-width: 160px;
+        column-gap: 8px;
+    }
+    .footer-social{
+        margin-left: 14px;
+    }
+    .footer-social ul{
+        column-gap: 2px;
+    }
+
+
+
+}
